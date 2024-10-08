@@ -1,0 +1,25 @@
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 columns */
+  grid-template-rows: repeat(10, 1fr);    /* 10 rows */
+  gap: 10px;                              /* Space between seats */
+}
+
+.seat-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.seat-occupied {
+  background-color: gray;
+}
+
+.seat-free {
+  background-color: green;
+}
